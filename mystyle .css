@@ -1,0 +1,184 @@
+body {
+    font-size: 100%;
+    margin: 0;
+}
+
+.normal-text {
+    font-family: "El Messiri";
+    font-size: 100%;
+    color: #7A7A7A !important;
+}
+
+.heading-text {
+    font-family: "El Messiri";
+    font-size: 200%;
+    font-weight: bold;
+    color: black !important;
+    text-align: center;
+}
+
+.section {
+    width: 100%;
+    height: 90vh;
+    padding-top: 10vh;
+}
+
+.image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* menu ------------------------------------------------- */
+
+#menubar {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    padding: 1%;
+}
+
+#menubar .menu-item {
+    display: inline;
+}
+
+#menubar .menu-item a {
+    padding: 0 2%;
+    text-decoration: none;
+    float: right;
+}
+
+#menu-logo {
+    display: inline;
+    margin-left: 25px;
+}
+
+#menu-logo .image {
+    width: 80px;
+    height: 40px;
+    background-image: url(logo_small.png);
+    display: inline-block;
+    padding: 0 2%;
+}
+
+/* home ------------------------------------------------- */
+
+#home-section {
+    background-size: contain;
+    background-image: url(Slice.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: 0;
+    
+}
+
+#home-title {
+    width: fit-content;
+    position: relative;
+    top: 30%;
+    left: 60%;
+}
+
+/* about us ------------------------------------------------- */
+
+#about-title {
+    text-align: center;
+}
+
+#about-sub-sections {
+    height: 100%;
+    padding: 0 5%;
+    position: relative;
+}
+
+.about-sub-image {
+    width: 50%;
+    height: 120%;
+    background-image: url(Slice\ 1.png);
+    display: inline-block;
+}
+
+.about-sub-text {
+    width: 50%;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+}
+
+#about-1 {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 0;
+}
+
+#about-1 .about-sub-image{
+    background-image: url(house.png);
+}
+
+#about-2 {
+    width: 100%;
+    height: 40%;
+    position: relative;
+}
+
+#about-2 .about-sub-image {
+    background-image: url(computer.png);
+    float: right;
+}
+
+#about-2 .about-sub-text {
+    text-align: right;
+}
+
+/* contact us ------------------------------------------------- */
+
+#contact-title {
+    text-align: center;
+}
+
+#contact-sub-sections {
+    width: 30%;
+    position: relative;
+    left: 35%;
+    padding: 5% 5%;
+}
+
+#contact-sub-sections p{
+    position: absolute;
+    top: 25%;
+    display: inline-block;
+    padding: 0 20%;
+    margin: 0;
+}
+
+#contact-phone .image{
+    background-image: url("icon_phone.png");
+}
+
+#contact-email .image{
+    background-image: url("icon_mail.png");
+}
+
+#contact-location .image{
+    background-image: url("icon_location.png");
+}
+
+#contact-sub-sections .image{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+#contact-phone, #contact-email, #contact-location{
+    position: relative;
+}
+/* footer ------------------------------------------------- */
+#footer{
+   padding: 20px;
+}
+
